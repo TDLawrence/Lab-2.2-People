@@ -22,5 +22,8 @@ public double classAverage()
 	}
 	return sum / students.length;
 }
-
+public void printClass()
+{System.out.println(teacher+getSubject()+students);
+	
+}
 }
