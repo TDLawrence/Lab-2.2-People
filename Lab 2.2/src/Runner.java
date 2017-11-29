@@ -5,9 +5,15 @@ public class Runner {
     
      private static String[] familyNames;
      
+     private static Student[] students;
+     
+     private static Teacher teacher;
+     
+     private static String subject;
+     
      Teacher teacher1 = new Teacher(8, "Joe", "Doe", 200.0, "math", "Mr.");
      Student student1 = new Student(5, "Ava", "DiPietro", 140.0 , 99.5 , 208203240, 12);
-     Classroom classroom1 = new Classroom(Student[] students, Teacher teacher, String subject)
+     Classroom classroom1 = new Classroom(students,teacher,subject);
      
    
 	public static void main(String[] args) {
@@ -24,9 +30,16 @@ public class Runner {
 		 firstNames[4]="Amy";
 		 familyNames[4]="Chen";
 		 
+		 
+		 
 		//Classroom.printClass();
+		//Classroom.classAverage();
 		 
 	}
+    public Student randomStudent()
+    {
+    	
+    }
 	
 
 }
