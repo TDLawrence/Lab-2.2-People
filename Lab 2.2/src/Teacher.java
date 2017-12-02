@@ -11,14 +11,17 @@ public class Teacher extends Person {
 	}
 
 	public String getSubject() {
-		return subject;
+		if (subject!=null)
+		{return subject;}
+		else
+		{return "Unknown";}
 	}
 
 	public String getTitle() {
 		return title;
 	}
 	public String toString()
-	{return title+". "+familyName;
+	{return title+familyName;
 		
 	}
 

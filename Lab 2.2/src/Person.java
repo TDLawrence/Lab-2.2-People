@@ -1,5 +1,4 @@
 package src;
-
 public abstract class Person {
 String firstName;
 String familyName;
@@ -14,11 +13,17 @@ public Person(int height,String firstName,String familyName,double weight)
 }
 
 public String getFirstName() {
-	return firstName;
+	if(firstName!=null)
+	{return firstName;}
+	else
+	{return "Not a person";}
 }
 
 public String getFamilyName() {
-	return familyName;
+	if(familyName!=null)
+	{return familyName;}
+	else
+	{return "Not a person";}
 }
 
 public double getWeight() {

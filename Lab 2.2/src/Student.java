@@ -24,6 +24,6 @@ public class Student extends Person {
 		return grade;
 	}
 	public String toString()
-	{return familyName+"'"+firstName;	}
+	{return familyName+","+firstName;	}
 }
 
