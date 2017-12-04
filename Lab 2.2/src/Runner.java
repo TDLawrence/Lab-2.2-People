@@ -21,8 +21,12 @@ public class Runner {
      double value=0;
      int level=0;
      int id=0;
-     String lastName[]= {"Lawrence","DiPietro","Chen","Bosompem","Buan","Moore"};
-     String firstName[]= {"Tyson","Ava","Keziah","Amy","Christopher","Mimi","Mariecia"};
+     String lastName[]= {"Lawrence","DiPietro","Chen","Bosompem","Buan","Moore", "Tyler", "Eggson", "Wilson",
+    		 "Stevenson", "Johnson", "Robinson", "Smingle", "Shortz", "Day", "Carter", "Jones", "Leong", "Ivanov",
+    		 "Rubenstein", "Silverstein", "Bruce", "Holmes", "Brückel", "Rocker", "Da Rosa", "Reed", "Morris", "Peters", "Marx"};
+     String firstName[]= {"Tyson","Ava","Keziah","Amy","Christopher","Mimi","Mariecia", "James", "Stuart",
+    		 "Sam", "Anna", "Johana", "Olivia", "Rachel", "Jeff", "Gorgonzola", "Ellie", "Fiorella", "Anita",
+    		 "Joey", "Edward", "Harry", "Chloe", "Jamie", "Adam", "Domenic", "Margaret", "Patricia", "Andy", "Karl"};
      for (int counter=1;counter<=34;counter++)
       {value=gpa.nextInt(101); 	
        level=1+grade.nextInt(12);
