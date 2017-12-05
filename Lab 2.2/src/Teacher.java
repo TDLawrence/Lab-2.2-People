@@ -20,10 +20,7 @@ public class Teacher extends Person {
 	public String getTitle() {
 		return title;
 	}
-	public String toString()
-	{return title+familyName;
-		
+	public String toString() {
+		return title + " " + familyName;	
 	}
-
-
 }

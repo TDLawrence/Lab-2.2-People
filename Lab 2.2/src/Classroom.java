@@ -56,24 +56,23 @@ public String getSubject() {
 public double classAverage()
 {
 	double sum = 0;
-	if (students!=null)
-	{for (int n = 0; n < students.length; n++) 
-	 {   if (students[n]!=null)
-		{sum = sum + students[n].getGpa();}
-	 }
-	return sum / students.length;
+	if (students!=null) {
+		for (int n = 0; n < students.length; n++) {
+			if (students[n]!=null) {
+				sum = sum + students[n].getGpa();
+			}
+		}
+		return sum / students.length;
 	}
     return sum;
 }
 public void printClass()
 {
-String x=this.teacher+","+ getSubject()+","+" ";
+String x=this.teacher+", "+ getSubject();
 System.out.println(x);
 {for(int n=0;n<students.length;n++)
  {
-	
- 
-  System.out.println(students[n]);
+	System.out.println(students[n]);
  }
 }
 }

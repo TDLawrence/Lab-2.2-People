@@ -23,7 +23,8 @@ public class Student extends Person {
 	public int getGrade() {
 		return grade;
 	}
-	public String toString()
-	{return familyName+","+firstName;	}
+	public String toString() {
+		return familyName + ", " + firstName;
+	}
 }
 
